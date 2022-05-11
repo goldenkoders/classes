@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.container {
+  margin: 3rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: .2rem;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+  border-radius: .2rem;
+  background-color: transparent;
+  text-align: center;
+  padding: .7rem 2rem;
+}
+
+a:hover {
+  outline: 3px solid crimson;
+}
+
+a:visited {
+  outline-color: rebeccapurple;
+  color: rebeccapurple;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid rgb(197, 0, 164);
+  padding: .5rem 1rem;
+}
+
+button {
+  padding: .8rem 2rem;
+  background-color: #4e2;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: rgb(255, 69, 69);
+  color: black;
+  cursor: pointer;
+  transition: transform 1000ms ease-in;
+  transform: translateY(30rem);
+}
+
+button:active {
+  background-color: rebeccapurple;
+
+}
+
+.svg-icon {
+  position: relative;
+  top: 20em;
+  right: 20em;
+  transform: translateY(5rem);
+}
+
